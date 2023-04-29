@@ -1,0 +1,137 @@
+body{
+    background-color: #f5f5f5;
+    color: #4e4e4e;
+    scroll-behavior: smooth;
+}
+.layer{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.background{
+    height: 100vh;
+    background-image: url(../images/intro-bg\ \(1\).jpg);
+    background-size:  cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.icon{
+    height: 150px;
+}
+.icon i{
+    font-size: 4rem;
+    height: 121px;
+    border-color: #0078ff;
+    border-width: 10px !important;
+    transition: all 1s;
+}
+.card:hover i{
+    color: white;
+    background-color: #0078ff;
+    border-color: rgba(152, 193, 240, 0.9) !important;
+}
+li.nav-item a{
+    transition: all 1s;
+}
+.color{
+    color: #0078ff;
+}
+.xh img{
+    transition: all 1s ;
+}
+.xh:hover img{
+    transform: scale(1.1);
+}
+.about-me h2, .services p.p-2, .portofolio p.p-2 ,.blog p.pk-2, .form h3 ,.content6 h3{
+    position: relative;
+}
+.about-me h2::after , .services p.p-2::after , .portofolio p.p-2::after, .blog p.pk-2::after, .form h3::after ,.content6 h3::after{
+    content: "";
+    top: 100%;
+    left: 0%;
+    position: absolute;
+    height: 3px;
+    width: 20%;
+    background-color: #0078ff;
+}
+
+.services p.p-2::after ,.portofolio p.p-2::after , .blog p.pk-2::after,.form h3::after , .content6 h3::after{
+    width: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.form h3::after{width: 20%;}
+
+li.nav-item a:hover{
+    border-bottom: 1px solid white;
+}
+.list{list-style-type: none;}
+.bold{
+    font-weight: 600;
+}
+ul.cont{list-style-type: none;}
+ul.cont i{
+    padding: 7px;
+}
+
+.text{
+    font-size: 1.4rem;
+}
+.d{
+    border: 4px solid #0078ff;
+    padding: 10px;
+    border-radius: 50%;
+    color: black;
+    font-size: 30px;
+}
+.d a{
+    text-decoration: none;
+}
+.d:hover{
+    background-color: #0078ff;
+    border-color: rgba(152, 193, 240, 0.9) !important;
+    color: #fff;
+}
+.h-size{
+    font-size: 4.5rem;
+}
+.pq{width: 120px; height: 120px;}
+.hi{
+    border: 9px solid;
+    font-size: 4rem;
+    border-radius: 50%;
+}
+
+section.projects{
+    background-image: url(../images/counters-bg\ \(1\).jpg);
+    background-attachment: fixed;
+    background-position: center center;
+}
+.layer-2{
+    background-color: rgba(0, 120, 255, .6);
+}
+
+.p1-size{
+    font-size: 2.5rem;
+}
+section.slider div.slider-bg{
+    height: 500px;
+}
+.slider-bg{
+    background-image: url(../images/overlay-bg\ \(1\).jpg);
+    background-attachment: fixed;
+}
+.freeman{height: 60px;}
+.freeman img{
+    width: 30px;
+    height: 30px;
+}
+.c3{
+    height: 500px;
+    background-color: rgba(0, 120, 255, .6);
+}
+
+
+.form{
+    background-image: url(../images/overlay-bg\ \(1\).jpg);
+    background-attachment: fixed;
+}

@@ -14,6 +14,13 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
+#navbar{
+    z-index: 9999999999999999999;
+    transition: all .5s;
+}
+.nav-colored { background-color:#0D6EFD !important; 
+}
+.nav-transparent { background-color:transparent;}
 .icon{
     height: 150px;
 }

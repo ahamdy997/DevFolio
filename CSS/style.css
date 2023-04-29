@@ -14,13 +14,6 @@ body{
     background-position: center;
     background-attachment: fixed;
 }
-#navbar{
-    z-index: 9999999999999999999;
-    transition: all .5s;
-}
-.nav-colored { background-color:#0D6EFD !important; 
-}
-.nav-transparent { background-color:transparent;}
 .icon{
     height: 150px;
 }
@@ -31,6 +24,13 @@ body{
     border-width: 10px !important;
     transition: all 1s;
 }
+#navbar{
+    z-index: 9999999999999999999;
+    transition: all .5s;
+}
+.nav-colored { background-color:#0D6EFD !important; 
+}
+.nav-transparent { background-color:transparent;}
 .card:hover i{
     color: white;
     background-color: #0078ff;
